@@ -1,10 +1,10 @@
-![alt tag](/example/polynomial_regression_example.png)
-
 # About
 
 This library can make predictions about data using a technique called polynomial regression.
 
 Polynomial regression uses a technique called Gaussian-Jordan elimination, which creates a predictive model that more accurately fits non-linear data.
+
+This fork of JS-Polynomial-Regression updates webpack.config with `globalObject: this` and a `commonjs` target to allow the package to work outside of the browser. 
 
 # How to use
 
